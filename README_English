@@ -1,0 +1,70 @@
+🎬 EntertainmentLogger
+EntertainmentLogger is a Java application for recording and managing a wide range of entertainment content including movies, music, anime, dramas, operas, and more. Each category has a dedicated input form equipped with “Add”, “Edit”, “Delete”, and “Refresh” functionalities.
+
+📁 Package Structure
+graphql
+Copy
+Edit
+EntertainmentLogger/
+│
+├── Anime/              # GUI and logic for anime logging
+├── Drama/              # GUI and logic for drama logging
+├── Foreign_Firms/      # Foreign film logging features
+├── Hollywood_firms/    # Hollywood movie logging features
+├── JapaneseMovie/      # Japanese movie logging features
+├── J_Song/             # J-POP song logging features
+├── K_Song/             # K-POP song logging features
+├── Western_Song/       # Western music logging features
+├── Western_Firms/      # Western film logging features
+├── Musical/            # Musical logging features
+├── Opera/              # Opera logging features
+│
+├── LoggerUtils/        # Shared utilities (e.g., file saving/loading)
+├── Main_logger/        # Main launcher class (menu for launching each category)
+│
+└── README              # Project documentation
+🔧 Key Features
+GUI input forms using Swing or JavaFX
+
+Buttons for Add, Edit, Delete, and Refresh
+
+Custom input fields for each category:
+
+Movies: Release year, evaluation criteria
+
+Anime/Drama: Rating
+
+Music: Artist name, song title
+
+CSV-based file saving for data persistence
+
+🚀 How to Run
+Install Java (version 17 or later recommended)
+
+Open the project in your preferred IDE (e.g., IntelliJ)
+
+Run the main class inside the Main_logger package
+
+The main GUI will launch, allowing access to each category input form
+
+🛠️ Technologies Used
+Java (GUI using Swing or JavaFX)
+
+Object-oriented design with category-based class structure
+
+✍️ Planned Features
+Improved CSV-based data persistence
+
+Advanced search functionality
+
+Data visualization (e.g., viewing trends and stats)
+
+Google account login integration
+
+Screenshot capture with selectable area
+
+📌 Author
+Seiya Genda
+University of Nebraska at Kearney
+Double Major: Marketing & Computer Science
+Motto: "Create a world where people can be passionate about everything!"
