@@ -1,2 +1,0 @@
-# EntertainmentLogger_project
-ChatGPTを使ったアニメから音楽、映画までの簡単なログ管理アプリの作成
